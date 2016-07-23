@@ -26,3 +26,6 @@
 - Portability
   - abstract machine interface (AMI)
     - application programming interface (API)
+  - hardware abstraction layer (HAL)
+- Performance
+  - 
