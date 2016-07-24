@@ -28,4 +28,35 @@
     - application programming interface (API)
   - hardware abstraction layer (HAL)
 - Performance
-  - 
+  - efficiency; overhead
+  - fairness
+  - response time and throughput
+  - predictability
+- Adoption
+  - network effect
+    - proprietary
+    - open system
+- Tradeoffs
+
+## History
+  - Runtime libraries
+  - Multi-user OS
+    - batch OS: direct memory access (DMA)
+    - multitasking
+    - virtual machine monitor
+  - Time-sharing OS
+  - Modern OS
+    - desktop, laptop, netbook
+    - smartphone
+    - embedded systems
+    - virtual machines
+    - server
+    - server clusters
+  - Future OS
+    - very large scale data centers
+    - very large scale multicore systems
+    - ubiquitous portable computing devices
+    - very heterogeneous systems
+    - very large scale storage
+
+# Kernel and Process
