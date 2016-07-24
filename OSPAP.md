@@ -1,4 +1,4 @@
-# Introduction
+# C1 Introduction
 ## Definition
 - Referee
   - resource allocation
@@ -59,4 +59,7 @@
     - very heterogeneous systems
     - very large scale storage
 
-# Kernel and Process
+# C2 Kernel Abstraction
+## Protection - the Central Role
+
+**Read on Page 41**
