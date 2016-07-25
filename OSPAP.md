@@ -74,8 +74,21 @@
 
 ### HW minimal requirement:
 - privileged instructions
+  - concept: instructions available in kernel-mode but not in user-mode
+  - processor exception: processor to transfer control to an exception handler in the kernel
   - system call: processes transfer control into the kernel
 - memory protection
+  - base and bounds:
+    - base: specifies the start of the process's memory region
+    - bound: length
+    - unable to:
+      - expandable heap and stack
+      - memory sharing
+      - non-relative memory address
+  - virtual address
 - timer interrupts
+  - HW timer: set to interrupt the processor after a specified delay
 
-**Read on Page 51**
+## Safe control transfer
+
+**Read on Page 61**
