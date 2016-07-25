@@ -60,6 +60,19 @@
     - very large scale storage
 
 # C2 Kernel Abstraction
-## Protection - the Central Role
+- The Central Role: protection
+- OS kernel: full access to HW; trusted to do anything
+## Process
+- executable images: a sequence of machine instructions, and static data with their initial values
+- process is an instance of a program
+- process control block: info about a particular process
+## Dual-mode Operation
+- user-mode: processor checks each instruction to verify that the instruction is permitted to be performed by that process
+- kernel-mode: protection checks turned off
+### HW minimal requirement:
+- privileged instructions
+  - system call: processes transfer control into the kernel
+- memory protection
+- timer interrupts
 
-**Read on Page 41**
+**Read on Page 51**
