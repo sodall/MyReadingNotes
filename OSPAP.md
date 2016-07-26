@@ -117,5 +117,18 @@
   - x86 processor status word
   - pushad, popad, iret
   - interrupt handlers: top and bottom halves
+
+### system calls
+- calling convention
+- pair of stubs: two short procedures that mediate between two environments
+  - kernel stub tasks:
+    - locate system call arguments
+    - validate parameters
+    - copy before check; Time of Check Time of Use, TOCTOU attack
+    - copy back any results
+    
+### starting a new process
+- copy arguments into user memory
+- transfer control to user-mode
   
-**Read on Page 61**
+**Read on Page 78**
