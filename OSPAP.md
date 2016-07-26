@@ -130,5 +130,11 @@
 ### starting a new process
 - copy arguments into user memory
 - transfer control to user-mode
+
+### upcalls
+- concept: virtualized interrupts and exception
+- UNIX: signals; Windows: asynchronous events
+- useful cases:
+  - preemptive user-level thread package
   
-**Read on Page 78**
+**Read on Page 79**
