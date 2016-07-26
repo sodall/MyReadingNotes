@@ -90,5 +90,25 @@
   - HW timer: set to interrupt the processor after a specified delay
 
 ## Safe control transfer
+### User to kernel mode
+- exceptions: any expected condition caused by user program behavior
+  - powerful tool for virtualization (of HW), virtual machine and memory management
+- interrupt: an asynchronous signal to the processor that some external event has occured that may require its attention
+  - polling: the kernel could loop checking each IO device to see if an event has occurred
+- system calls: any procedure provided by the kernel that can be called from user-level
 
+### Kernel to user mode
+- new process
+- resume after an exception, interrupt or system call
+- switch to a different process
+- user-level upcall
+
+### safe mode switch
+- context switch:
+  - limited entry
+  - atomic changes to processor state
+  - transparent, restartable execution
+- interrupt vector
+- interrupt mask
+  
 **Read on Page 61**
