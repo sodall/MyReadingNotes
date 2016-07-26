@@ -109,6 +109,13 @@
   - atomic changes to processor state
   - transparent, restartable execution
 - interrupt vector
-- interrupt mask
+- interrupt stack
+- interrupt masking
+  - disable interrupt
+  - enable interrupt
+- HW support for saving and restoring registers
+  - x86 processor status word
+  - pushad, popad, iret
+  - interrupt handlers: top and bottom halves
   
 **Read on Page 61**
