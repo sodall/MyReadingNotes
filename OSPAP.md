@@ -147,4 +147,4 @@
   - signal masking: automatically
   - processor state: kernel provides to the handler
   
-**Read on Page 89**
+**Read on Page 91**
