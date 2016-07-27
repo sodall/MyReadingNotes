@@ -134,7 +134,17 @@
 ### upcalls
 - concept: virtualized interrupts and exception
 - UNIX: signals; Windows: asynchronous events
-- useful cases:
+- immediate event delivery:
   - preemptive user-level thread package
+  - asynchronous I/O notification
+  - interprocess communications
+  - user-level exception handling
+  - user-level resource allocation policy
+- signals
+  - types of signals: defined by kernel
+  - handlers: defined by process
+  - signal stack: allocated by user
+  - signal masking: automatically
+  - processor state: kernel provides to the handler
   
-**Read on Page 79**
+**Read on Page 89**
