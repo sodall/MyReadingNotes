@@ -103,7 +103,7 @@
 - switch to a different process
 - user-level upcall
 
-### safe mode switch
+### Safe mode switch
 - context switch:
   - limited entry
   - atomic changes to processor state
@@ -118,7 +118,7 @@
   - pushad, popad, iret
   - interrupt handlers: top and bottom halves
 
-### system calls
+### System calls
 - calling convention
 - pair of stubs: two short procedures that mediate between two environments
   - kernel stub tasks:
@@ -127,11 +127,11 @@
     - copy before check; Time of Check Time of Use, TOCTOU attack
     - copy back any results
     
-### starting a new process
+### Starting a new process
 - copy arguments into user memory
 - transfer control to user-mode
 
-### upcalls
+### Upcalls
 - concept: virtualized interrupts and exception
 - UNIX: signals; Windows: asynchronous events
 - immediate event delivery:
@@ -146,5 +146,12 @@
   - signal stack: allocated by user
   - signal masking: automatically
   - processor state: kernel provides to the handler
+
+### Future directions
+- fine-grained protection
+- application-layer sandboxing
+- HW support for virtualization
+
+# C3 Programming Interface
   
-**Read on Page 91**
+**Read on Page 101**
